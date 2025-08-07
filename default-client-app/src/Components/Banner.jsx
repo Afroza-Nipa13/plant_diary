@@ -77,7 +77,7 @@ const Banner = () => {
                         <div className='bg-cover bg-center mt-25 h-full w-full'
                             style={{ backgroundImage: `url(${item.image})` }}>
                             <div className='flex flex-col md:mx-w-3xl  justify-center pt-[150px] md:ml-20 lg:30 ml-5 space-y-3'>
-                                <h2 className='text-6xl bg-green-800 opacity-80 text-gray-100  p-3 mb-5 font-bold'>{item.title}</h2>
+                                <h2 className='text-6xl bg-[#679267] opacity-80 text-gray-100  p-3 mb-5 font-bold'>{item.title}</h2>
                                 <p className='mb-6 text-2xl text-gray-300'>{item.desc}</p>
                                 <button className='btn mb-4 btn-wide text-xl text-green-700 hover:bg-green-300 rounded-full lg:py-2 md:py-2 flex-1 gap-1'>Explore More  <FaArrowRight /></button>
                             </div>

@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
                 
             </nav>
-            <a href="https://lordicon.com/">Icons by Lordicon.com</a>
+            
         </footer>
     );
 };

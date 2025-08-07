@@ -54,8 +54,8 @@ const UpdatePlants = () => {
             <div
                 className='mx-auto p-12 shadow-2xl bg-no-repeat bg-green-200  bg-cover  rounded-2xl text-center space-y-5 '
             >
-                <h1 className='text-6xl font-bold text-green-950 mx-auto italic'>Update Your Plant</h1>
-                <p className='md:w-3xl text-center text-xl mx-auto text-green-900'>Keep your plants happy! Fill out this form to set reminders and <br />track your plant's care routine.</p>
+                <h1 className='text-6xl font-bold text-[#679267] mx-auto italic'>Update Your Plant</h1>
+                <p className='md:w-3xl text-center text-xl mx-auto text-[#679267]'>Keep your plants happy! Fill out this form to set reminders and <br />track your plant's care routine.</p>
 
                 <form onSubmit={handleUpdatePlants} className='space-y-5'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-2 mx-auto'>

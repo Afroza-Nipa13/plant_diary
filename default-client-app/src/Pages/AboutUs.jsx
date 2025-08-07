@@ -26,7 +26,7 @@ const AboutUs = () => {
                 Plantation Tips
               </p>
             </div>
-            <h5 className="mb-3 text-3xl text-green-800 font-extrabold leading-none sm:text-4xl">
+            <h5 className="mb-3 text-3xl text-[#679267] font-extrabold leading-none sm:text-4xl">
              You Must Know Befor Plantation
             </h5>
             <p className="mb-5 text-gray-800">

@@ -31,7 +31,7 @@ const DetailsProduct = () => {
                         <p  className='font-semibold text-gray-200'>Care Level : <span> {care_level}</span></p>
                         <hr className='text-green-200'/>
                         <div className=' my-5 flex justify-around'>
-                        <p className='font-semibold text-gray-200'>Last watered day : <span className='bg-green-100 text-green-800 px-4 py-1 rounded-4xl'>{last_watered_day}</span></p>
+                        <p className='font-semibold text-gray-200'>Last watered day : <span className='bg-green-100 text-[#679267] px-4 py-1 rounded-4xl'>{last_watered_day}</span></p>
                         <p className='font-semibold text-gray-200'>Next watered day : <span className='bg-blue-100 text-blue-800 px-4 py-1 rounded-4xl'>{next_watered_day}</span></p>
                         </div>
                         <hr className='text-green-200 my-3'/>
