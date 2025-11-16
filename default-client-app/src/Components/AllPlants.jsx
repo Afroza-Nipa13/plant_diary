@@ -23,7 +23,7 @@ const AllPlants = () => {
           <Helmet>
                           <title>All Plants</title>
                       </Helmet>
-            <h1 className='text-5xl text-green-600 dark:text-white underline my-5 text-center font-bold'> All plants</h1>
+            <h1 className='text-5xl text-primary dark:text-white underline my-5 text-center font-bold'> All plants</h1>
             
 <div className='my-10 flex justify-center items-center'>
   <select 
@@ -39,10 +39,10 @@ const AllPlants = () => {
 </select>
 
 </div>
-            <div className="overflow-x-auto bg-green-200 rounded-2xl mb-10">
+            <div className="overflow-x-auto bg-base-200 rounded-2xl mb-10">
   <table className="table md:px-5 md:py-4">
     {/* head */}
-    <thead className='bg-green-700 text-green-100'>
+    <thead className='bg-primary text-base-200'>
       <tr>
         <th>
           <label>

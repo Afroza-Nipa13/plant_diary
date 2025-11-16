@@ -64,7 +64,7 @@ const Banner = () => {
                 delay:2000,
                 disableOnInteraction:false,
             }}
-            className='w-full h-[650px] md:h-[550px] rounded-lg'
+            className='w-full h-[650px] md:h-[550px]'
         >
 
             {
@@ -74,12 +74,14 @@ const Banner = () => {
                         key={index}
                     >
 
-                        <div className='bg-cover bg-center mt-25 h-full w-full'
+                        <div className='bg-cover bg-center flex items-center text-center justify-center h-full w-full'
                             style={{ backgroundImage: `url(${item.image})` }}>
-                            <div className='flex flex-col md:mx-w-3xl  justify-center pt-[150px] md:ml-20 lg:30 ml-5 space-y-3'>
-                                <h2 className='text-6xl bg-[#679267] opacity-80 text-gray-100  p-3 mb-5 font-bold'>{item.title}</h2>
-                                <p className='mb-6 text-2xl text-gray-300'>{item.desc}</p>
-                                <button className='btn mb-4 btn-wide text-xl text-green-700 hover:bg-green-300 rounded-full lg:py-2 md:py-2 flex-1 gap-1'>Explore More  <FaArrowRight /></button>
+                            <div className='flex flex-col lg:w-3xl h-[300px] glass justify-center items-center space-y-3 p-4 rounded-sm'>
+                                <h2 className='text-4xl opacity-80 text-primary  p-6 mb-5 font-bold'>{item.title}</h2>
+                                <p className='mb-6 text-2xl w-2xl text-gray-300'>{item.desc}</p>
+                                <div>
+                                    <button className='btn mb-4 btn-wide text-primary text-xl  rounded-lg lg:py-4 md:py-2 flex-1 gap-1'>Explore More  <FaArrowRight /></button>
+                                </div>
                             </div>
                         </div>
 

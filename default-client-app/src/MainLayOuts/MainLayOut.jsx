@@ -5,11 +5,11 @@ import Footer from '../Pages/Footer';
 
 const MainLayOut = () => {
     return (
-        <div className=''>
+        <div className='mx-auto min-h-screen'>
             <header>
                 <Navbar></Navbar>
             </header>
-            <main className='max-w-7xl mx-auto min-h-screen'>
+            <main className=''>
                 <Outlet></Outlet>
             </main>
             <footer>

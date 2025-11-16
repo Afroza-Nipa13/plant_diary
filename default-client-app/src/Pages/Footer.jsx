@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaKaaba, FaYoutube } from 'react-icons/fa6';
 import { Link, NavLink } from 'react-router';
-import logo from '../assets/logo-removebg.png'
+import logo from '../assets/logo-dark.png'
 
 const Footer = () => {
     const links = <>
@@ -14,11 +14,11 @@ const Footer = () => {
 
     </>
     return (
-        <footer className="bg-black text-gray-100 p-10 pt-20 md:flex justify-around">
+        <footer className="bg-primary  border-t-4  text-base-200 p-10 pt-20 md:flex justify-around">
             <nav className='items-center text-center space-y-5'>
-                <img className='md:w-80 w-50 mx-auto' src={logo} alt="" />
+                <img className='md:w-50 w-30 mx-auto' src={logo} alt="" />
                 <p>
-                    My Plant Diary Industries Ltd.
+                    Plant Diary Industries Ltd.
                     <br />
                     Providing reliable tech since 1992
                 </p>
