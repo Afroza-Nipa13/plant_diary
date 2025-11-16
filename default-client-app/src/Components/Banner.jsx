@@ -61,7 +61,7 @@ const Banner = () => {
             pagination={{ type: 'fraction' }}
             modules={[Navigation, Pagination,Autoplay]}
             autoplay={{
-                delay:2000,
+                delay:5000,
                 disableOnInteraction:false,
             }}
             className='w-full h-[650px] md:h-[550px]'
@@ -76,8 +76,8 @@ const Banner = () => {
 
                         <div className='bg-cover bg-center flex items-center text-center justify-center h-full w-full'
                             style={{ backgroundImage: `url(${item.image})` }}>
-                            <div className='flex flex-col lg:w-3xl h-[300px] glass justify-center items-center space-y-3 p-4 rounded-sm'>
-                                <h2 className='text-4xl opacity-80 text-primary  p-6 mb-5 font-bold'>{item.title}</h2>
+                            <div className='flex flex-col lg:w-3xl h-[300px] glass justify-center items-center space-y-3 mt-22 p-4 rounded-md'>
+                                <h2 className='text-5xl opacity-80 text-secondary text-shadow-amber-800  p-6 mb-5 font-bold'>{item.title}</h2>
                                 <p className='mb-6 text-2xl w-2xl text-gray-300'>{item.desc}</p>
                                 <div>
                                     <button className='btn mb-4 btn-wide text-primary text-xl  rounded-lg lg:py-4 md:py-2 flex-1 gap-1'>Explore More  <FaArrowRight /></button>

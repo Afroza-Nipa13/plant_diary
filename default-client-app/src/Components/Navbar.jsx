@@ -4,6 +4,7 @@ import { AuthContext } from '../Contexts/AuthContext';
 import Swal from 'sweetalert2';
 import logo from '../assets/logo.png';
 import logoDark from '../assets/logo-dark.png';
+import leaf from '../assets/leaf.png';
 import { FaUser } from 'react-icons/fa6';
 
 
@@ -63,7 +64,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar fixed top-0 left-0 z-50 w-full backdrop-blur-lg shadow-sm">
-      <div className="navbar-start">
+      <div className="navbar-start flex items-center">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -76,16 +77,26 @@ const Navbar = () => {
         </div>
         
         <div className="text-xl">
-          <img
-            className="w-40 h-20 dark:hidden"
-            src={logo}
-            alt="Light Logo"
-          />
-          <img
-            className="w-40 h-20 hidden dark:block"
-            src={logoDark}
-            alt="Dark Logo"
-          />
+       <NavLink to="/">
+  {/* Mobile Logo (Always visible on small screens) */}
+  <img
+    className="w-15 h-15 block sm:hidden"
+    src={leaf}
+    alt="Leaf Logo"
+  />
+
+  {/* Desktop Light Logo */}
+  <img
+    className="w-40 h-15 hidden sm:block "
+    src={logo}
+    alt="Light Logo"
+  />
+
+  
+</NavLink>
+
+
+          
         </div>
       </div>
       
