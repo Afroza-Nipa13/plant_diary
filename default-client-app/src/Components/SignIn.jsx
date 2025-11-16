@@ -111,7 +111,7 @@ const SignIn = () => {
                         <input type="email" name='email' className="input" placeholder="Email" required />
                         <label className="label">Password</label>
                         <input type="password" name='password' className="input" placeholder="Password" required />
-                        <button type='submit' className="btn bg-green-400 text-white mt-4">Sign In</button>
+                        <button type='submit' className="btn bg-secondary text-white mt-4">Sign In</button>
 
                     </form>
                     <button onClick={handleSignInGoogle} className="btn btn-neutral mt-4"><FaGoogle /> Sign In with Google</button>

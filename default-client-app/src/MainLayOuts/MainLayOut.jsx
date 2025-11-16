@@ -5,7 +5,9 @@ import Footer from '../Pages/Footer';
 
 const MainLayOut = () => {
     return (
-        <div className='mx-auto min-h-screen'>
+        <div className='min-h-screen '
+        
+    >
             <header>
                 <Navbar></Navbar>
             </header>

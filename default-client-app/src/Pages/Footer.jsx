@@ -14,7 +14,7 @@ const Footer = () => {
 
     </>
     return (
-        <footer className="bg-primary  border-t-4  text-base-200 p-10 pt-20 md:flex justify-around">
+        <footer className="bg-[#333d29]   text-[#f4f0bb] p-10 pt-20 md:flex justify-around">
             <nav className='items-center text-center space-y-5'>
                 <img className='md:w-50 w-30 mx-auto' src={logo} alt="" />
                 <p>

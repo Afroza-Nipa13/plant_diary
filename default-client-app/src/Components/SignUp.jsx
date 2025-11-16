@@ -102,8 +102,8 @@ return
         <Helmet>
                         <title>Sign Up</title>
                     </Helmet>
-         <div className="card bg-base-100 w-full max-w-sm mx-auto shrink-0 shadow-2xl">
-            <h2 className='text-3xl font-bold text-green-700 text-center mt-8'>Sign Up</h2>
+         <div className="card glass w-full max-w-sm mx-auto shrink-0 shadow-2xl">
+            <h2 className='text-3xl font-bold text-primary text-center mt-8'>Sign Up</h2>
             <div className="card-body">
                 <form onSubmit={handleSignUp} className="fieldset">
                     <label className="label">Name</label>
@@ -114,7 +114,7 @@ return
                     <input type="email" name='email' className="input" placeholder="Email" />
                     <label className="label">Password</label>
                     <input type="password" name='password' className="input" placeholder="Password" />
-                    <button className="btn bg-green-600 text-gray-200 mt-4">Sign Up</button>
+                    <button className="btn bg-secondary text-base-100 mt-4">Sign Up</button>
                 </form>
                 <p className='font-semibold'>Already have an account ? pleace <Link to='/signin' className='font-semibold text-blue-700'>Sign in</Link></p>
             </div>
