@@ -9,7 +9,7 @@
 
   --color-primary: #444C38; 
   --color-secondary: #4CBB17; 
-  --color-accent:  #22c55e; 
+  --color-accent:  #43c522; 
   --color-base-200: #fafccc; 
   --color-base-300:#8FBC8B; 
 }
@@ -18,7 +18,7 @@
   name: "dark";
 
   --color-primary: #C9D6BC;       
-  --color-secondary: #6EE77E;    
+  --color-secondary: #a2e76e;    
   --color-accent:  #4ADE80;       
   
   --color-base-200: #1A1F16;      

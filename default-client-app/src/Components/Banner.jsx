@@ -7,6 +7,7 @@ import img3 from '../assets/swiper/img3.jpg'
 import img4 from '../assets/swiper/img4.png'
 import img5 from '../assets/swiper/img5.jpg'
 import img6 from '../assets/swiper/img6.jpg'
+import img7 from '../assets/swiper/img7.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css'
@@ -49,9 +50,13 @@ const Banner = () => {
         },
         {
             image: img6,
-            title: 'Use Compost Regularly'
-,
-            desc: "Enrich your soil with organic compost to give your plants a natural nutrient boost.Keep your plants thriving with the smartest Plant Care Tracker.",
+            title: 'Use Compost Regularly',
+            desc: "Enrich your soil with organic compost to give your plants a natural nutrient boost.",
+        },
+        {
+            image: img7,
+            title: 'Choose the Right Spot',
+            desc: "Keep your plants thriving with the smartest Plant Care Tracker.",
         },
     ]
 
@@ -74,13 +79,13 @@ const Banner = () => {
                         key={index}
                     >
 
-                        <div className='bg-cover bg-center flex items-center text-center justify-center h-full w-full'
+                        <div className='bg-cover bg-center flex items-center text-start glass justify-center h-full w-full'
                             style={{ backgroundImage: `url(${item.image})` }}>
-                            <div className='flex flex-col lg:w-3xl h-[300px] glass justify-center items-center space-y-3 mt-22 p-4 rounded-md'>
-                                <h2 className='text-5xl opacity-80 text-secondary text-shadow-amber-800  p-6 mb-5 font-bold'>{item.title}</h2>
+                            <div className='flex flex-col lg:w-3xl h-[400px] justify-start items-start space-y-3 mt-22 p-4 rounded-md'>
+                                <h2 className='text-5xl opacity-80 text-white text-shadow-amber-50 mb-5 font-bold'>{item.title}</h2>
                                 <p className='mb-6 text-2xl w-2xl text-gray-300'>{item.desc}</p>
                                 <div>
-                                    <button className='btn mb-4 btn-wide text-primary text-xl  rounded-lg lg:py-4 md:py-2 flex-1 gap-1'>Explore More  <FaArrowRight /></button>
+                                    <button className='btn mb-6 btn-wide text-primary text-xl  rounded-lg lg:py-4 md:py-2 flex-1 gap-1'>Explore More  <FaArrowRight /></button>
                                 </div>
                             </div>
                         </div>

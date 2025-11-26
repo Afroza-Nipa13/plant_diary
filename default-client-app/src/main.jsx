@@ -78,7 +78,8 @@ const router = createBrowserRouter([
         path: '/myplants/:email',
         element: <PrivetRouts><MyPlants></MyPlants></PrivetRouts>
 
-      }
+      },
+     
 
     ]
   },

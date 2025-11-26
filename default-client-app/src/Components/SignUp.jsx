@@ -98,11 +98,11 @@ return
     
  }   
     return (
-       <div className='pt-30'>
+       <div className='pt-30 pb-10'>
         <Helmet>
                         <title>Sign Up</title>
                     </Helmet>
-         <div className="card glass w-full max-w-sm mx-auto shrink-0 shadow-2xl">
+         <div className="card bg-base-200 w-full max-w-sm mx-auto shrink-0 shadow-2xl">
             <h2 className='text-3xl font-bold text-primary text-center mt-8'>Sign Up</h2>
             <div className="card-body">
                 <form onSubmit={handleSignUp} className="fieldset">
@@ -116,7 +116,7 @@ return
                     <input type="password" name='password' className="input" placeholder="Password" />
                     <button className="btn bg-secondary text-base-100 mt-4">Sign Up</button>
                 </form>
-                <p className='font-semibold'>Already have an account ? pleace <Link to='/signin' className='font-semibold text-blue-700'>Sign in</Link></p>
+                <p className='font-semibold'>Already have an account ? please <Link to='/signin' className='font-semibold text-blue-700'>Sign in</Link></p>
             </div>
         </div>
        </div>

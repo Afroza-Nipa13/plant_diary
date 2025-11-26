@@ -102,7 +102,7 @@ const SignIn = () => {
             <Helmet>
                 <title>Sign In</title>
             </Helmet>
-            <div className="card bg-base-100 w-full max-w-sm mx-auto my-8 shrink-0 shadow-2xl">
+            <div className="card bg-base-200 w-full max-w-sm mx-auto my-8 shrink-0 shadow-2xl">
                 <h2 className='text-3xl font-bold text-center mt-8'>Sign In</h2>
                 <div className="card-body">
                     <form onSubmit={handleSignIn} className="fieldset">
@@ -115,7 +115,7 @@ const SignIn = () => {
 
                     </form>
                     <button onClick={handleSignInGoogle} className="btn btn-neutral mt-4"><FaGoogle /> Sign In with Google</button>
-                    <p className='font-semibold'>New to our page ? pleace <Link to='/signup' className='font-semibold text-red-400'>SignUp</Link></p>
+                    <p className='font-semibold'>New to our page ? please <Link to='/signup' className='font-semibold text-red-800'>SignUp</Link></p>
                 </div>
             </div>
         </div>
