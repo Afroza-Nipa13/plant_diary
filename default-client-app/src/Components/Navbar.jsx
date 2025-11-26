@@ -76,7 +76,7 @@ const Navbar = () => {
           to={item.path}
           className={({ isActive }) =>
             `flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-primary hover:text-primary-content mr-2 ${
-              isActive ? 'bg-primary text-primary-content shadow-lg' : ''
+              isActive ? 'bg-primary text-base-300 shadow-lg' : ''
             }`
           }
         >
@@ -185,7 +185,7 @@ const Navbar = () => {
                   SignUp
                 </NavLink>
                 <NavLink 
-                  className='btn btn-primary rounded-full px-6 text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1' 
+                  className='btn btn-primary text-base-300 rounded-full px-6 text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1' 
                   to='/signin'
                 >
                   SignIn
