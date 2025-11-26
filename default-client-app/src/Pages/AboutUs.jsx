@@ -4,16 +4,16 @@ import { Link } from 'react-router'
 const AboutUs = () => {
   return (
     <div>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto bg-base-200 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="flex flex-col max-w-screen-lg overflow-hidden border rounded shadow-sm lg:flex-row sm:mx-auto">
-          <div className="relative lg:w-1/2">
+          <div className="relative lg:w-1/2 glass">
             <img
               src="https://media.istockphoto.com/id/1147472170/photo/hand-with-water-can-watering-indoor-plants-on-windowsill.jpg?s=612x612&w=0&k=20&c=ebhi3cBpN-2mdq7x2a_U1VcI6sdZ2uhJDv38Z0AJuYM="
               alt=""
               className="object-cover w-full lg:absolute h-80 lg:h-full"
             />
             <svg
-              className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
+              className="absolute top-0 right-0 hidden h-full text-base-200 lg:inline-block"
               viewBox="0 0 20 104"
               fill="currentColor"
             >
@@ -52,7 +52,7 @@ const AboutUs = () => {
             <div className="flex items-center">
               <button
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-primary transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Get started
               </button>
